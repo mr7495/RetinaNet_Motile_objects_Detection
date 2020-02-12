@@ -6,3 +6,5 @@ This repository is based on the https://github.com/fizyr/keras-retinanet and has
 The idea is from paper https://arxiv.org/abs/2002.04034.
 
 Cite as 	arXiv:2002.04034
+
+Developer Email: mr7495@yahoo.com
