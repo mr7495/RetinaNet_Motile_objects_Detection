@@ -139,7 +139,7 @@ def evaluate(
     generator,
     model,
     iou_threshold=0.5,
-    score_threshold=0.05,
+    score_threshold=0.5,
     max_detections=100,
     save_path=None,
     save_log=False
@@ -159,7 +159,7 @@ def evaluate(
     output={}
     all_detections     = _get_detections(generator, model, score_threshold=score_threshold, max_detections=max_detections)
     all_annotations    = _get_annotations(generator)
-    all_detections1= _get_detections(generator, model, score_threshold=0.5, max_detections=max_detections)
+    #all_detections1= _get_detections(generator, model, score_threshold=0.5, max_detections=max_detections)
     average_precisions = {}
     if save_path is None:
         try:
@@ -197,7 +197,7 @@ def evaluate(
         for i in range(generator.size()):
             output[generator.image_names[i]]={'annotations':[],'TP':[],'FP':[],'FN':[]}
             detections           = all_detections[i][label]
-            detections1          = all_detections1[i][label]
+            #detections1          = all_detections1[i][label]
             annotations          = all_annotations[i][label]
             num_annotations     += annotations.shape[0]
             detected_annotations = []
