@@ -18,6 +18,8 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 4-preprocess_image function in keras_retinanet/utils/image.py
 
+The code for training and testing has also been shared on this repository.
+
 The idea is from paper https://arxiv.org/abs/2002.04034.
 
 Cite as 	arXiv:2002.04034
