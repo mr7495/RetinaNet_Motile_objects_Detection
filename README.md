@@ -1,7 +1,7 @@
 # Motile objects detection with RetinaNet
 Implementation of the multi-frames detection method for motile objects (detection phase of the paper on: https://arxiv.org/abs/2002.04034)
 
-**The tracking phase of the paper is available on** https://github.com/mr7495/Sperm_detection_and_tracking
+**The tracking phase of the paper is available on https://github.com/mr7495/Sperm_detection_and_tracking**
 
 **This repository is based on the** https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection
 
