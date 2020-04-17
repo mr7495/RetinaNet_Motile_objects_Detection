@@ -1,4 +1,4 @@
-# RetinaNet_Detection
+# Motile objects detection with RetinaNet
 Implementation of the multi-frames detection method of motile objects
 
 This repository is based on the https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection.
