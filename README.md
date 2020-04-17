@@ -42,7 +42,7 @@ video), we repeat the nearest frame instead of those unavailable frames.
 
 These next figures show the different evaluation metrics for concatenation of the different number of frames:
 
-<img src="/images/Accuracy-1.jpg" width="50%"><img src="/images/Average_Precision-1.jpg" width="50%">
+<img src="/images/Accuracy-1.jpg" width="50%" height="10%"><img src="/images/Average_Precision-1.jpg" width="50%" height="10%">
 <img src="/images/F1_measure-1.jpg" width="50%"><img src="/images/Recall-1.jpg" width="50%">
 
 
