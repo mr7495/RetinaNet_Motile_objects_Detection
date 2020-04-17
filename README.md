@@ -1,9 +1,9 @@
 # Motile objects detection with RetinaNet
 Implementation of the multi-frames detection method for motile objects (detection phase of the paper on: https://arxiv.org/abs/2002.04034)
 
-The tracking phase of the paper is available on https://github.com/mr7495/Sperm_detection_and_tracking
+**The tracking phase of the paper is available on** https://github.com/mr7495/Sperm_detection_and_tracking
 
-This repository is based on the https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection
+**This repository is based on the** https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection
 
 The first stage of our work is detecting sperms in the frames of a video sample. We have used RetinaNet, which
 is a deep fully convolutional network. As described, a deep object detector, like RetinaNet, firstly attempts to extract
