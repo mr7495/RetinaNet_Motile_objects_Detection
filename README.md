@@ -47,8 +47,7 @@ These next figures show the different evaluation metrics for concatenation of th
 <img src="/images/Accuracy-1.jpg" width="50%" height="1%"><img src="/images/Average_Precision-1.jpg" width="50%" height="1%">
 <img src="/images/F1_measure-1.jpg" width="50%" height="1%"><img src="/images/Recall-1.jpg" width="50%" height="1%">
 
-
-
+It is obvious that the concatenation of consecutive frames results in much better training output.
 
 
 The code has been tested on video samples with 25 frames and the sample of used annotations has been shared in annotation sample.csv file.
@@ -68,10 +67,16 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 The code for training and testing and three consecutive frames for testing and the result of it has also been shared on this repository.
 
-Our trained neural network based on 3 concatenated frames have been shared on: https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
+**Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
 
-The idea is from paper https://arxiv.org/abs/2002.04034.
+If you find our work effective, you can cite our paper by:
 
-Cite as 	arXiv:2002.04034
-
-Developer Email: mr7495@yahoo.com
+```
+@article{rahimzadeh2020sperm,
+  title={Sperm detection and tracking in phase-contrast microscopy image sequences using deep learning and modified CSR-DCF},
+  author={Rahimzadeh, Mohammad and Attar, Abolfazl and others},
+  journal={arXiv preprint arXiv:2002.04034},
+  year={2020}
+}
+```
+You can contact the developer by this email : mr7495@yahoo.com
