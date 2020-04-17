@@ -29,7 +29,7 @@ video), we repeat the nearest frame instead of those unavailable frames.
 </p>
 
 <p align="center">
-	<img src="images/General_schematics-1.jpg" alt="photo not available" width="80%" height="70%">
+	<img src="images/General_schematics-1.jpg" alt="photo not available" width="80%" height="60%">
 	<br>
 	<em>An example for concatenating five consecutive frames</em>
 </p>
