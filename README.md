@@ -47,7 +47,7 @@ These next figures show the different evaluation metrics for concatenation of th
 <img src="/images/Accuracy-1.jpg" width="50%" height="1%"><img src="/images/Average_Precision-1.jpg" width="50%" height="1%">
 <img src="/images/F1_measure-1.jpg" width="50%" height="1%"><img src="/images/Recall-1.jpg" width="50%" height="1%">
 
-It is obvious that the concatenation of consecutive frames results in much better training output.
+**It is obvious that the concatenation of consecutive frames results in much better training output.**
 
 
 The code has been tested on video samples with 25 frames and the sample of used annotations has been shared in annotation sample.csv file.
@@ -65,9 +65,15 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 4-preprocess_image function in keras_retinanet/utils/image.py
 
-The code for training and testing and three consecutive frames for testing and the result of it has also been shared on this repository.
+**The code for training and testing and three consecutive frames for testing and the result of it has also been shared on this repository.**
 
 **Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
+
+The detection results based on the concatenation of three consecutive frames are listed in the next table:
+
+|  Average Precision | Recall | Accuracy | Precision | F1 | 
+|:-----:|:--------------------:|:------------:|:--------:|:-------------------:|
+|  99.1 |         98.7        |     96.3   |   97.4   |  98.1  |
 
 If you find our work effective, you can cite our paper by:
 
