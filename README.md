@@ -23,7 +23,7 @@ that when the next frames or previous frames of the selected frame are not avail
 video), we repeat the nearest frame instead of those unavailable frames.
 
 <p align="center">
-	<img src="images/sperm_detection-1.jpg" alt="photo not available" width="80%" height="70%">
+	<img src="images/sperm_detection-1.jpg" alt="photo not available" width="80%" height="90%">
 	<br>
 	<em>General schematic of the detection phase</em>
 </p>
