@@ -22,7 +22,11 @@ For testing the object detector, we concatenate each frame with its previous and
 that when the next frames or previous frames of the selected frame are not available (e.g., first or last frames of the
 video), we repeat the nearest frame instead of those unavailable frames.
 
-
+<p align="center">
+	<img src="images/sperm_detection-1.jpg" alt="photo not available" width="80%" height="70%">
+	<br>
+	<em>General schematic of the detection phase</em>
+</p>
 
 
 
