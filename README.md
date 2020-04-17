@@ -40,6 +40,15 @@ video), we repeat the nearest frame instead of those unavailable frames.
 	<em>An example of a detected image</em>
 </p>
 
+These next figures show the different evaluation metrics for concatenation of the different number of frames:
+
+<img src="/images/Accuracy-1.jpg" width="50%"><img src="/images/Average_Precision-1.jpg" width="50%">
+<img src="/images/F1_measure-1.jpg" width="50%"><img src="/images/Recall-1.jpg" width="50%">
+
+
+
+
+
 The code has been tested on video samples with 25 frames and the sample of used annotations has been shared in annotation sample.csv file.
 If you have more than 25 frames or want to use different type of annotation file change load-image function in keras_retinanet/preprocessing/csv_generator.py address.
 
