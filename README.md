@@ -34,7 +34,11 @@ video), we repeat the nearest frame instead of those unavailable frames.
 	<em>An example for concatenating five consecutive frames</em>
 </p>
 
-
+<p align="center">
+	<img src="images/241_low-1.jpg" alt="photo not available" width="80%" height="60%">
+	<br>
+	<em>An example of a detected image</em>
+</p>
 
 The code has been tested on video samples with 25 frames and the sample of used annotations has been shared in annotation sample.csv file.
 If you have more than 25 frames or want to use different type of annotation file change load-image function in keras_retinanet/preprocessing/csv_generator.py address.
