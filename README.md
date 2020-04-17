@@ -1,7 +1,9 @@
 # Motile objects detection with RetinaNet
-Implementation of the multi-frames detection method of motile objects
+Implementation of the multi-frames detection method of motile objects (detection phase of the paper on: https://arxiv.org/abs/2002.04034)
 
-This repository is based on the https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection.
+The tracking phase of the paper is available on https://github.com/mr7495/Sperm_detection_and_tracking
+
+This repository is based on the https://github.com/fizyr/keras-retinanet and has been improved for motile objects detection
 
 The code has been tested on video samples with 25 frames and the sample of used annotations has been shared in annotation sample.csv file.
 If you have more than 25 frames or want to use different type of annotation file change load-image function in keras_retinanet/preprocessing/csv_generator.py address.
