@@ -6,16 +6,15 @@ Implementation of the multi-frames detection method for motile objects (detectio
 **This repository is based on the** https://github.com/fizyr/keras-retinanet **and has been improved for motile objects detection**
 
 The first stage of our work is detecting sperms in the frames of a video sample. We have used RetinaNet, which
-is a deep fully convolutional network. As described, a deep object detector, like RetinaNet, firstly attempts to extract
+is a deep, fully convolutional network. As described, a deep object detector, like RetinaNet, firstly attempts to extract
 object features, then, based on those features, detects the objects. Sperms are small objects with few attributes like
-brightness, the special shape of head and tail, and motility. Specially, motility attribute is significant because there
-might be other particles in the semen that look like sperms head and could cause false detections. Utilizing motility
+brightness, the special shape of head and tail, and motility. Especially, the motility attribute is significant because there
+might be other particles in the semen that look like sperms head and could cause false detections. Utilizing the motility
 attribute, the network learns to better distinguish sperms with other particles.
 If we feed one frame image to the object detector, the network cannot extract the motility attribute. Our method is to
 feed the concatenation of consecutive frames of video samples to the network so that it can extract motility attributes.
-The result reported in Section 4 illustrates the superiority of our proposed method. While training the network, we feed
-a concatenation of several frames and the ground-truth of the middle frame to the network. Fig. 2, is an example of
-feeding a concatenation of five consecutive frames with the ground-truth of the middle frame to the network. This
+The result illustrates the superiority of our proposed method. While training the network, we feed
+a concatenation of several frames and the ground-truth of the middle frame to the network. This
 way makes the network able to detect the sperm movement from previous and next frames and consider the motility
 attribute.
 For testing the object detector, we concatenate each frame with its previous and next frames of the video. It is noteworthy,
