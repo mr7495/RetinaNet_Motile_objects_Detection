@@ -1,5 +1,5 @@
 # Motile objects detection with RetinaNet
-Implementation of the multi-frames detection method for motile objects (detection phase of the paper on: https://arxiv.org/abs/2002.04034)
+**Implementation of the multi-frames detection method for motile objects (detection phase of the paper on:** https://arxiv.org/abs/2002.04034)
 
 **The tracking phase of the paper is available on** https://github.com/mr7495/Sperm_detection_and_tracking
 
