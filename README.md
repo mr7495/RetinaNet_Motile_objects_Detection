@@ -40,7 +40,7 @@ video), we repeat the nearest frame instead of those unavailable frames.
 </p>
 
 
-The next figures show the different evaluation metrics for the concatenation of the different number of frames:
+The next figures show the different evaluation metrics for the concatenation of the different number of frames(also a comparison between RetinaNet simple training and our training method):
 
 
 <img src="/images/Accuracy-1.jpg" width="50%" height="1%"><img src="/images/Average_Precision-1.jpg" width="50%" height="1%">
