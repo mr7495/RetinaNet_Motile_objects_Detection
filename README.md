@@ -66,7 +66,11 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 **The code for training and testing and three consecutive frames for testing and the result of it has also been shared on this repository.**
 
-**Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
+**Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/file/d/14ufFO8GKbE5Qlrm3wloHKQcsnudwHeSR/view?usp=sharing
+
+**The inference version of our trained neural network based on 3 concatenated frames have also been shared on:** https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
+
+You can visit https://github.com/fizyr/keras-retinanet for learning the differences between the inference and the training models.
 
 The detection results based on the concatenation of three consecutive frames are listed in the next table:
 
