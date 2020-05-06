@@ -64,7 +64,7 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 4-preprocess_image function in [keras_retinanet/utils/image.py](keras_retinanet/utils/image.py)
 
-**The code for [training](RetinaNet_training.ipynb) and [testing](RetinaNet_testing.ipynb) based on the three consecutive frames for and  a [sample result](detected.jpg) of it has also been shared on this repository.**
+**The code for [training](RetinaNet_training.ipynb) and [testing](RetinaNet_testing.ipynb) based on the three consecutive frames and  a [sample result](detected.jpg) of it has also been shared on this repository.**
 
 **Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/file/d/14ufFO8GKbE5Qlrm3wloHKQcsnudwHeSR/view?usp=sharing
 
