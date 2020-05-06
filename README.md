@@ -66,6 +66,8 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 **The code for [training](RetinaNet_training.ipynb) and [testing](RetinaNet_testing.ipynb) based on the three consecutive frames and  a [sample result](detected.jpg) of it has also been shared on this repository.**
 
+**Note: The current version of the RetinaNaet from [fizyr](https://github.com/fizyr/keras-retinanet) does not support Tensorflow version higher than 1.15.
+
 **Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/file/d/14ufFO8GKbE5Qlrm3wloHKQcsnudwHeSR/view?usp=sharing
 
 **The inference version of our trained neural network based on 3 concatenated frames have also been shared on:** https://drive.google.com/open?id=1pN3A-tWJOphRdTZ7cPhJTnTIhoiGrcWv
