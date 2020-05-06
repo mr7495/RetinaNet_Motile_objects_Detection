@@ -49,8 +49,8 @@ The next figures show the different evaluation metrics for the concatenation of 
 **It is obvious that the concatenation of consecutive frames results in much better training output.**
 
 
-The code has been tested on video samples with **25** frames and the sample of used annotations has been shared in annotation sample.csv file.
-If you have more than 25 frames or want to use different type of annotation file change load-image function in keras_retinanet/preprocessing/csv_generator.py address.
+The code has been tested on video samples with **25** frames and the sample of used annotations has been shared in [annotation sample.csv](annotation_sample.csv) file.
+If you have more than 25 frames or want to use different type of annotation file change load-image function in [keras_retinanet/preprocessing/csv_generator.py](keras_retinanet/preprocessing/csv_generator.py) address.
 
 In this code **3** consecutive frames have been concatenated to be used as the input of RetinaNet.
 
@@ -62,7 +62,7 @@ If you want to use more than 3 consecutive frames you have to apply some changes
 
 3-[keras_retinanet/utils/eval.py](keras_retinanet/utils/eval.py) ( This line: image1 = generator.load_image(i)[:,:,1].astype(np.uint8),1 is the middle frame when we have 3 consecutive frames.)
 
-4-preprocess_image function in keras_retinanet/utils/image.py
+4-preprocess_image function in [keras_retinanet/utils/image.py](keras_retinanet/utils/image.py)
 
 **The code for [training](RetinaNet_training.ipynb) and [testing](RetinaNet_testing.ipynb) based on the three consecutive frames for and  a [sample result](detected.jpg) of it has also been shared on this repository.**
 
