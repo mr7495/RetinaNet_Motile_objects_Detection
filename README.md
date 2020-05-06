@@ -56,15 +56,15 @@ In this code **3** consecutive frames have been concatenated to be used as the i
 
 If you want to use more than 3 consecutive frames you have to apply some changes in these files:
 
-1-resnet_retinanet function in keras_retinanet/models/resnet.py (change first layer shape)
+1-resnet_retinanet function in [keras_retinanet/models/resnet.py](keras_retinanet/models/resnet.py) (change first layer shape)
 
-2-load_image function in keras_retinanet/preprocessing/csv_generator.py (change the code to load more than 3 consecutive frames.)
+2-load_image function in [keras_retinanet/preprocessing/csv_generator.py](keras_retinanet/preprocessing/csv_generator.py) (change the code to load more than 3 consecutive frames.)
 
-3-keras_retinanet/utils/eval.py ( This line: image1 = generator.load_image(i)[:,:,1].astype(np.uint8),1 is the middle frame when we have 3 consecutive frames.)
+3-[keras_retinanet/utils/eval.py](keras_retinanet/utils/eval.py) ( This line: image1 = generator.load_image(i)[:,:,1].astype(np.uint8),1 is the middle frame when we have 3 consecutive frames.)
 
 4-preprocess_image function in keras_retinanet/utils/image.py
 
-**The code for training and testing and three consecutive frames for testing and the result of it has also been shared on this repository.**
+**The code for [training](RetinaNet_training.ipynb) and [testing](RetinaNet_testing.ipynb) based on the three consecutive frames for and  a [sample result](detected.jpg) of it has also been shared on this repository.**
 
 **Our trained neural network based on 3 concatenated frames have been shared on:** https://drive.google.com/file/d/14ufFO8GKbE5Qlrm3wloHKQcsnudwHeSR/view?usp=sharing
 
