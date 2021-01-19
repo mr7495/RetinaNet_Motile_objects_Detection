@@ -5,6 +5,12 @@
 
 **This repository is based on the** https://github.com/fizyr/keras-retinanet **and has been improved for motile objects detection**
 
+**Working Environment:**
+```
+Tensorflow: 1.15
+Keras: 2.1
+```
+
 The first stage of our work is detecting sperms in the frames of a video sample. We have used RetinaNet, which
 is a deep, fully convolutional network. As described, a deep object detector, like RetinaNet, firstly attempts to extract
 object features, then, based on those features, detects the objects. Sperms are small objects with few attributes like
