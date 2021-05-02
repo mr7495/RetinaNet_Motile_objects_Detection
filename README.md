@@ -86,7 +86,7 @@ The detection results based on the concatenation of three consecutive frames are
 |:-----:|:--------------------:|:------------:|:--------:|:-------------------:|
 |  99.1 |         98.7        |     96.3   |   97.4   |  98.1  |
 
-If you find our work effective, you can cite our paper by:
+If you find our work effective, please cite it by:
 
 ```
 @article{rahimzadeh2020sperm,
